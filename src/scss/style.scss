@@ -125,10 +125,12 @@ button {
     .card {
         width: 34%;
         flex-grow: 1;
+        margin: 2vh;
     }
 }
 
 @media (min-width: 1200px) {
+   
     header {
         display: flex;
         flex-direction: row-reverse;
@@ -146,5 +148,10 @@ button {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+
+
+    .card {
+      width: 23%;
     }
 }
